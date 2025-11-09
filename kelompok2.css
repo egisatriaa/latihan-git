@@ -1,0 +1,148 @@
+/* ===== kelompok2.css ===== */
+/* ===== HOME SECTION ===== */
+.section-home {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.home-heading {
+    font-size: 2rem;
+    color: #0052d4;
+    margin-bottom: 1rem;
+}
+
+.home-text {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto 1rem;
+    line-height: 1.6;
+}
+
+.home-shipping {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 1rem;
+}
+
+.text-strong {
+    font-weight: 600;
+    color: #0040a0;
+}
+
+.text-em {
+    font-style: italic;
+    color: #0066cc;
+}
+
+.text-mark {
+    background-color: #ffeb3b;
+    color: #222;
+    padding: 0 4px;
+    border-radius: 3px;
+}
+
+/* FEATURED PRODUCTS */
+.section-featured {
+    padding: 3rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.featured-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #0052d4;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+}
+
+.featured-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    background: #f7f8fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-header {
+    margin-bottom: 1rem;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    color: #0052d4;
+}
+
+.product-subtitle {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.product-figure {
+    margin: 1rem 0;
+}
+
+.product-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.product-caption {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.3rem;
+}
+
+.product-desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.btn-add-cart {
+    background: linear-gradient(90deg, #0052d4, #6fb1fc);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 100px;
+}
+
+.btn-add-cart:hover {
+    background: linear-gradient(90deg, #0040a0, #508ef5);
+    transform: scale(1.05);
+}
